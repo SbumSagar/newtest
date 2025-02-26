@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TRADERS@BPHC</title>
+    <style></style>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="brand">
+        <img src="logo.jpeg" alt="Logo" />
+        <span><a href="#">TRADERS@BPHC</a></span>
+      </div>
+
+      <div class="center-links">
+        <a href="#">EVENTS</a>
+        <a href="#">GALLERY</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#">YEARBOOK</a>
+        <a href="#">OUR TEAM</a>
+      </div>
+
+      <div class="right-icons">
+        <button class="menu-btn" onclick="toggleMenu()">MENU</button>
+      </div>
+    </nav>
+
+    <div id="menu">
+      <button class="close-btn" onclick="toggleMenu()">X</button>
+
+      <div class="link-container">
+        <ul>
+          <li>
+            <a
+              href="#"
+              onmouseover="changeMenuBg('#b319d6'); changeImage('image.png'); toggleMenuLinkStyles(this, true);"
+              onmouseout="resetMenuBg(); toggleMenuLinkStyles(this, false);"
+              >EVENTS</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onmouseover="changeMenuBg('#e41c74'); changeImage('image copy 3.png'); toggleMenuLinkStyles(this, true);"
+              onmouseout="resetMenuBg(); toggleMenuLinkStyles(this, false);"
+              >GALLERY</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onmouseover="changeMenuBg('#048755'); changeImage('image copy 2.png'); toggleMenuLinkStyles(this, true);"
+              onmouseout="resetMenuBg(); toggleMenuLinkStyles(this, false);"
+              >EDITORIALS
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onmouseover="changeMenuBg('#e41c74'); changeImage('image copy 3.png'); toggleMenuLinkStyles(this, true);"
+              onmouseout="resetMenuBg(); toggleMenuLinkStyles(this, false);"
+              >OUR TEAM</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="image-container">
+        <img
+          id="menu-image"
+          src="img_1.png"
+          alt="Menu Image"
+          class="image-visible"
+        />
+      </div>
+
+      <div class="footer">
+        <div class="footer-columns">
+          <div>
+            <a href="#about">ABOUT US</a><br />
+            <a href="#footrr">CONTACT US</a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/groups/traders.bphc/">FACEBOOK</a
+            ><br />
+            <a href="https://www.instagram.com/traders_bphc/">INSTAGRAM</a
+            ><br />
+            <a
+              href="https://www.linkedin.com/company/tradersatbphc/posts/?feedView=all"
+              >LINKEDIN</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="smooth-scroll-wrapper">
+      <section class="home-section">
+        <div class="home-background"></div>
+        <div class="home-content">
+          <div class="home-title">TRADERS@BPHC</div>
+          <div class="home-subtitle">
+            The premier Trading Club of BITS PILANI,Hyderabad
+          </div>
+          <button class="home-button">FINNOVATE!</button>
+        </div>
+      </section>
+      <section class="about-us">
+        <div class="about-heading" id="about">
+          <div class="squaree"></div>
+          <h2>ABOUT US</h2>
+        </div>
+        <div class="about-content">
+          <p class="reveal-type">
+            There was no authentic sharing and learning platform for this
+            purpose of our campus hence we decided to create one.! We also have
+            certain things planned across the timeline such as- Daily current
+            affairs about the market, monthly company analysis, study materials,
+            articles about market changes, risk management strategies,
+            algorithmic strategies , carrier opportunities in stock market etc.
+            So what are you waiting for!!, Join now! It's our own trading
+            group@BPHC
+          </p>
+        </div>
+      </section>
+      <section class="edits" onclick="window.location.href='https://example.com';">
+        <div class="recent-container">
+          <div class="square"></div>
+          <div class="criteria">Recent:</div>
+        </div>
+        <div class="heading1">
+         <p> <span>IMPACT OF U.S. ELECTIONS ON THE FINANCIAL MARKET</span></p>
+        </div>
+        <button class="read">Read Now!</button>
+      </section>
+      <section
+        class="clickable-section"
+        onclick="window.location.href='https://example.com';"
+      >
+        <div class="recent-container">
+          <div class="recent-box"></div>
+          <div class="recent-text">Recent:</div>
+        </div>
+        <div class="clickable-section">
+          <div class="heading1">
+           <p><span>2025: INDIA'S ECONOMIC OUTLOOK & TRUMP'S ONGOING IMPACT</span></p>
+          </div>
+          <button class="read">Read Now!</button>
+        </div>
+      </section>
+      <div class="our-pors">
+        <h2>OUR PORS</h2>
+        <div class="pors-container">
+          <div class="por-card">
+            <img src="tulshyan.jpg" alt="POR 1" />
+            <div class="por-info">
+              <h3>Pranav Tulshyan</h3>
+              <p>President</p>
+            </div>
+          </div>
+          <div class="por-card">
+            <img src="sangai.jpg" alt="POR 2" />
+            <div class="por-info">
+              <h3>Siddharth Sangai</h3>
+              <p>Secretary</p>
+            </div>
+          </div>
+          <div class="por-card">
+            <img src="1696183210725.jpg" alt="POR 3" />
+            <div class="por-info">
+              <h3>Tanuj Gupta</h3>
+              <p>Joint-Secretary</p>
+            </div>
+          </div>
+          <div class="por-card">
+            <img src="karpe.jpg" alt="POR 4" />
+            <div class="por-info">
+              <h3>Ayush Karpe</h3>
+              <p>Treasurer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="team-section">
+
+        <div class="team-ti">
+        <h2 class="team-title">OUR TEAM</h2>
+      </div>
+        <div class="team-frame">
+          <img
+            src="https://media.istockphoto.com/id/986662156/photo/the-business-people-standing-on-the-white-wall-background.jpg?s=612x612&w=0&k=20&c=ahzZNrI_bLLvGphMM-cj4wHH_f45-s_K--NQ3o9gZP8="
+            alt=""
+          />
+        </div>
+      </section>
+      
+
+    <footer class="footers">
+        <div class="footers-container">
+           
+            <div class="column">
+              E-mail:  
+              <a href="mailto:newbusiness@weareimpero.com">traders@hyderabad.bits-pilani.ac.in</a>
+                <br>
+                <p>+91 6204468828</p>
+                <br>
+                <p>BITS Pilani Hyderabad Campus, Secunderabad, Telangana 500078</p>
+              
+            </div>
+            <div class="column">
+              <div class="linking">
+                <div class="squaree"></div><a href="#">ABOUT US</a></div>
+                <div class="linking">
+                <div class="squaree"></div><a href="#">CONTACT US</a></div>
+                <div class="linking">
+                <div class="squaree"></div><a href="#">YEARBOOK</a></div>
+
+
+            </div>
+            <div class="column">
+                <h3>FOLLOW US</h3>
+                <div class="socials">
+                  <div class="linking">
+                    <div class="squaree"></div>
+                    <a href="#">Facebook</a> </div><!-- Facebook -->
+                    <div class="linking">
+                      <div class="squaree"></div><a href="#">Twitter</a> </div><!-- LinkedIn -->
+                    <div class="linking"><div class="squaree"></div><a href="#">Instagram</a></div> <!-- Instagram -->
+                   <div class="linking"> <div class="squaree"></div><a href="#">LinkedIn</a> <!-- Twitter --></div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="column" id="copy">
+          <h3>| All Rights Reserved © 2025 Traders@BPHC | </h3>
+        </div>
+    </footer>
+
+        
+    </footer>
+    </main>
+    <script>
+      function toggleMenu() {
+        var menu = document.getElementById("menu");
+        var navbar = document.getElementById("navbar");
+        if (menu.style.right === "0px") {
+          menu.style.right = "-100%";
+          navbar.style.transform = "translateY(0)";
+        } else {
+          menu.style.right = "0";
+          navbar.style.transform = "translateY(-100%)";
+        }
+      }
+
+      function changeImage(imageSrc) {
+        const image = document.getElementById("menu-image");
+        image.src = imageSrc;
+      }
+
+      function changeMenuBg(color) {
+        document.getElementById("menu").style.backgroundColor = color;
+      }
+
+      function resetMenuBg() {
+        document.getElementById("menu").style.backgroundColor = "#000000";
+      }
+
+      function toggleMenuLinkStyles(link, isHovered) {
+        const links = document.querySelectorAll(".link-container a");
+        links.forEach((l) => {
+          if (l !== link) {
+            l.classList.toggle("greyed-out", isHovered);
+          }
+        });
+        link.style.color = isHovered ? "black" : "";
+      }
+
+      const body = document.body,
+        scrollWrap = document.getElementsByClassName(
+          "smooth-scroll-wrapper"
+        )[0],
+        height = scrollWrap.getBoundingClientRect().height - 1,
+        speed = 0.1;
+
+      var offset = 0;
+
+      body.style.height = Math.floor(height) + "px";
+
+      function smoothScroll() {
+        offset += (window.pageYOffset - offset) * speed;
+
+        var scroll = "translateY(-" + offset + "px) translateZ(0)";
+        scrollWrap.style.transform = scroll;
+
+        callScroll = requestAnimationFrame(smoothScroll);
+      }
+
+      smoothScroll();
+      function toggleMenu() {
+        var menu = document.getElementById("menu");
+        var navbar = document.getElementById("navbar");
+        var isOpen = menu.style.right === "0%";
+        menu.style.right = isOpen ? "-100%" : "0%";
+        navbar.style.transform = isOpen ? "translateX(0)" : "translateX(-100%)";
+      }
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js
+"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

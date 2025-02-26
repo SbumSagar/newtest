@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Footer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #fff;
+            color: #000;
+        }
+
+        .contact-section {
+            text-align: left;
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .contact-section h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        .socials {
+            background: #000;
+            color: #fff;
+            padding: 50px 20px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .socials .column {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px;
+        }
+
+        .socials .column h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .socials .column a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin-top: 5px;
+            font-size: 1rem;
+        }
+
+        .socials .column a:hover {
+            text-decoration: underline;
+        }
+
+        .socials {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .socials a {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        .logo {
+            width: 150px;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .contact-section h1 {
+                font-size: 3rem;
+            }
+            .footer-container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="contact-section">
+        <h1>Contact us</h1>
+    </section>
+
+    <footer class="socials">
+        <div class="footer-container">
+            <div class="column">
+                <h3>TRDERS@BPHC</h3>
+                <img src="logo.png" alt="Logo" class="logo">
+            </div>
+            <div class="column">
+                <h3>BITS PILANI HYDERABAD CAMPUS ADDRESS</h3>
+                <a href="mailto:newbusiness@weareimpero.com">newbusiness@weareimpero.com</a>
+                <p>+44 20 7998 7571</p>
+                <p>Unit 306, Metropolitan Wharf, 70 Wapping Wall, London E1W 3SS</p>
+                <a href="#">SEE ON MAP →</a>
+            </div>
+            <div class="column">
+                <h3>ABOUT US</h3>
+                <a href="#">HOME</a>
+            </div>
+            <div class="column">
+                <h3>FOLLOW US</h3>
+                <div class="socials">
+                    <a href="#">📘</a> <!-- Facebook -->
+                    <a href="#">🔗</a> <!-- LinkedIn -->
+                    <a href="#">📷</a> <!-- Instagram -->
+                    <a href="#">🐦</a> <!-- Twitter -->
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
